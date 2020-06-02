@@ -21,9 +21,12 @@ export default {
 
 <style scoped>
 .hpbars {
+  color: #e4fde1;
   text-align: center;
 }
 .bar {
+  color: #f45b69;
+  font-size: 1.5rem;
   background: greenyellow;
   margin: auto;
   border-radius: 20px;
