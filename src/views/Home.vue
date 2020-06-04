@@ -1,9 +1,9 @@
 <template>
   <div class="dialog">
     <p>{{speak}}</p>
-    <button @click="changeDialog()" v-show="this.dialogs[this.dialog].game">Sigue</button>
+    <button @click="changeDialog()" v-show="this.dialogs[this.dialog].game">Next</button>
     <button v-show="!this.dialogs[this.dialog].game">
-      <router-link :to="{name: 'Game'}">Lucha</router-link>
+      <router-link :to="{name: 'Game'}">Fight!</router-link>
     </button>
   </div>
 </template>
