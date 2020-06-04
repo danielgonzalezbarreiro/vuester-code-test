@@ -30,7 +30,7 @@
   border-radius: 50%;
   width: 12rem;
   height: 12rem;
-  border: 4px solid greenyellow;
+  border: 4px solid #f45b69;
 }
 .twitter img {
   width: 4rem;
