@@ -66,7 +66,8 @@ export default {
   align-content: center;
   justify-content: center;
   padding: 1rem;
-  margin: 3rem 55rem 2rem 55rem;
+  width: 100px;
+  align-self: center;
   color: #e4fde1;
   border: 3px solid #f45b69;
   background: #028090;
