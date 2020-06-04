@@ -48,4 +48,13 @@ export default {
   margin: 0.667rem;
   font-weight: bold;
 }
+
+.options button:hover {
+  color: #114b5f;
+  border: 3px solid #f45b69;
+  background: #e4fde1;
+  padding: 0.5rem 1rem;
+  margin: 0.667rem;
+  font-weight: bold;
+}
 </style>

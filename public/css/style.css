@@ -1,8 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
 * {
   background-color: #114b5f;
   color: #e4fde1;
+  font-family: "Architects Daughter", cursive;
 }
 
 button {
   padding: 0.5rem 1.5rem;
+}
+
+#nav a {
+  color: #e4fde1;
 }

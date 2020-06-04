@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="dialog">
     <p>{{speak}}</p>
     <button @click="changeDialog()" v-show="this.dialogs[this.dialog].game">Sigue</button>
     <button v-show="!this.dialogs[this.dialog].game">
@@ -19,12 +19,12 @@ export default {
       dialog: 0,
       dialogs: [
         {
-          text: "Hola, que tal?",
+          text: "What are u doing here?",
           dialog: "0",
           game: true
         },
         {
-          text: "Has llegado muy lejos?",
+          text: "You're died",
           dialog: "1",
           game: true
         },
@@ -48,3 +48,35 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+.dialog {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  margin-top: 10rem;
+}
+.dialog p {
+  font-size: 40px;
+}
+
+.dialog button {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding: 1rem;
+  margin: 3rem 55rem 2rem 55rem;
+  color: #e4fde1;
+  border: 3px solid #f45b69;
+  background: #028090;
+  font-weight: bold;
+}
+
+.dialog button:hover {
+  color: #114b5f;
+  border: 3px solid #f45b69;
+  background: #e4fde1;
+  font-weight: bold;
+}
+</style>
